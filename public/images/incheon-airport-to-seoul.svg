@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#e8f1f8"/>
+  <rect y="470" width="1200" height="160" fill="#cfdde8"/>
+  <!-- Seoul skyline -->
+  <g fill="#7f9bb3">
+    <rect x="820" y="300" width="60" height="170"/>
+    <rect x="890" y="250" width="50" height="220"/>
+    <rect x="950" y="320" width="70" height="150"/>
+    <rect x="1030" y="270" width="45" height="200"/>
+    <rect x="1085" y="340" width="80" height="130"/>
+    <rect x="1001" y="170" width="8" height="40"/>
+    <path d="M985 210 h40 l-8 30 h-24 z"/>
+    <rect x="1000" y="240" width="10" height="60"/>
+  </g>
+  <!-- airplane -->
+  <g transform="translate(150 140) rotate(-12)" fill="#0f4c81">
+    <path d="M0 30 Q0 20 20 20 H190 Q215 20 225 30 Q215 40 190 40 H20 Q0 40 0 30 z"/>
+    <path d="M80 22 L130 -40 H150 L120 22 z"/>
+    <path d="M80 38 L130 100 H150 L120 38 z"/>
+    <path d="M10 22 L0 -10 H18 L40 22 z"/>
+  </g>
+  <!-- track -->
+  <rect x="0" y="470" width="1200" height="10" fill="#4a6278"/>
+  <!-- train -->
+  <g transform="translate(120 395)">
+    <path d="M0 0 H360 Q420 0 440 50 L450 75 H0 z" fill="#0072bc"/>
+    <rect x="0" y="55" width="450" height="12" fill="#f9b233"/>
+    <g fill="#e8f1f8">
+      <rect x="25" y="15" width="60" height="28" rx="4"/>
+      <rect x="105" y="15" width="60" height="28" rx="4"/>
+      <rect x="185" y="15" width="60" height="28" rx="4"/>
+      <rect x="265" y="15" width="60" height="28" rx="4"/>
+      <path d="M350 15 H390 Q410 15 420 43 H350 z"/>
+    </g>
+  </g>
+  <!-- bus -->
+  <g transform="translate(620 500)">
+    <rect width="230" height="80" rx="12" fill="#e5532d"/>
+    <g fill="#e8f1f8">
+      <rect x="15" y="12" width="40" height="30" rx="3"/>
+      <rect x="65" y="12" width="40" height="30" rx="3"/>
+      <rect x="115" y="12" width="40" height="30" rx="3"/>
+      <rect x="165" y="12" width="50" height="30" rx="3"/>
+    </g>
+    <circle cx="50" cy="82" r="16" fill="#2b2b2b"/>
+    <circle cx="180" cy="82" r="16" fill="#2b2b2b"/>
+  </g>
+  <text x="80" y="330" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#0f2c46">Incheon Airport → Seoul</text>
+</svg>

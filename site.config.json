@@ -1,0 +1,29 @@
+{
+  "siteUrl": "https://hwancole.github.io",
+  "basePath": "/korea-guide",
+  "defaultLang": "en",
+  "langs": {
+    "en": {
+      "label": "English",
+      "hreflang": "en",
+      "title": "Korea Guide",
+      "tagline": "Practical, local-checked guides for traveling and living in Korea",
+      "readMore": "Read more",
+      "updated": "Updated",
+      "latest": "Latest guides",
+      "home": "Home",
+      "minRead": "min read"
+    },
+    "ja": {
+      "label": "日本語",
+      "hreflang": "ja",
+      "title": "韓国ガイド",
+      "tagline": "韓国旅行・生活のための、現地目線の実用ガイド",
+      "readMore": "続きを読む",
+      "updated": "更新",
+      "latest": "最新ガイド",
+      "home": "ホーム",
+      "minRead": "分で読めます"
+    }
+  }
+}

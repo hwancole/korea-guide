@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f4f1ea"/>
+  <g transform="rotate(-8 330 330)">
+    <rect x="150" y="200" width="360" height="230" rx="24" fill="#0052a4"/>
+    <rect x="150" y="250" width="360" height="40" fill="#1d1d1f"/>
+    <rect x="190" y="320" width="62" height="46" rx="8" fill="#f6c76b"/>
+    <g fill="#ffffff" opacity="0.85">
+      <rect x="190" y="390" width="60" height="12" rx="6"/>
+      <rect x="265" y="390" width="60" height="12" rx="6"/>
+      <rect x="340" y="390" width="60" height="12" rx="6"/>
+    </g>
+  </g>
+  <g>
+    <rect x="470" y="300" width="300" height="150" rx="10" fill="#c8b98a"/>
+    <rect x="460" y="280" width="300" height="150" rx="10" fill="#e7d9a8"/>
+    <rect x="450" y="260" width="300" height="150" rx="10" fill="#f3e7bd" stroke="#b9a66a" stroke-width="4"/>
+    <circle cx="600" cy="335" r="44" fill="none" stroke="#b9a66a" stroke-width="6"/>
+    <text x="600" y="352" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#8a7a45" text-anchor="middle">₩</text>
+  </g>
+  <g transform="rotate(7 920 330)">
+    <rect x="780" y="220" width="300" height="200" rx="24" fill="#00a84d"/>
+    <circle cx="1020" cy="270" r="26" fill="#ffffff" opacity="0.9"/>
+    <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round">
+      <path d="M830 300 Q850 320 830 340"/>
+      <path d="M855 285 Q885 320 855 355"/>
+      <path d="M880 270 Q920 320 880 370"/>
+    </g>
+  </g>
+  <g fill="#ef7c1c">
+    <circle cx="420" cy="520" r="30"/>
+    <circle cx="490" cy="535" r="22"/>
+    <circle cx="760" cy="525" r="26"/>
+  </g>
+</svg>

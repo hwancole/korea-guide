@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#e8f1f8"/>
+  <!-- background city blocks -->
+  <g fill="#d5e3ee">
+    <rect x="40" y="60" width="160" height="110" rx="10"/>
+    <rect x="230" y="60" width="200" height="110" rx="10"/>
+    <rect x="40" y="200" width="250" height="150" rx="10"/>
+    <rect x="320" y="200" width="110" height="150" rx="10"/>
+    <rect x="40" y="380" width="180" height="190" rx="10"/>
+    <rect x="250" y="380" width="180" height="190" rx="10"/>
+    <rect x="770" y="60" width="180" height="140" rx="10"/>
+    <rect x="980" y="60" width="180" height="140" rx="10"/>
+    <rect x="770" y="230" width="390" height="120" rx="10"/>
+    <rect x="770" y="380" width="120" height="190" rx="10"/>
+    <rect x="920" y="380" width="240" height="190" rx="10"/>
+  </g>
+  <!-- river -->
+  <path d="M0 600 Q300 560 600 600 T1200 590 V630 H0 z" fill="#9cc3e0"/>
+  <!-- phone -->
+  <rect x="455" y="40" width="290" height="560" rx="40" fill="#1f2d3a"/>
+  <rect x="475" y="80" width="250" height="480" rx="14" fill="#f7fafc"/>
+  <rect x="565" y="56" width="70" height="10" rx="5" fill="#3d4f60"/>
+  <!-- map on screen -->
+  <g stroke="#dfe7ee" stroke-width="14" fill="none">
+    <path d="M475 200 H725"/>
+    <path d="M475 380 H725"/>
+    <path d="M560 80 V560"/>
+    <path d="M660 80 V560"/>
+  </g>
+  <rect x="475" y="270" width="250" height="40" fill="#cfe5d4"/>
+  <!-- route -->
+  <path d="M520 520 V380 H660 V200 H690 V130" stroke="#03c75a" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M520 520 V380 H660 V200 H690 V130" stroke="#ffffff" stroke-width="3" stroke-dasharray="2 12" fill="none" stroke-linecap="round"/>
+  <!-- start dot -->
+  <circle cx="520" cy="520" r="16" fill="#1a73e8" opacity="0.25"/>
+  <circle cx="520" cy="520" r="9" fill="#1a73e8" stroke="#fff" stroke-width="3"/>
+  <!-- destination pin -->
+  <g transform="translate(690 130)">
+    <path d="M0 0 C-22 -26 -26 -40 -26 -52 A26 26 0 0 1 26 -52 C26 -40 22 -26 0 0 z" fill="#e5484d"/>
+    <circle cx="0" cy="-52" r="10" fill="#fff"/>
+  </g>
+  <!-- subway marker -->
+  <circle cx="660" cy="380" r="14" fill="#f9b233" stroke="#fff" stroke-width="3"/>
+  <!-- side pins -->
+  <g transform="translate(330 180)">
+    <path d="M0 0 C-18 -22 -22 -34 -22 -44 A22 22 0 0 1 22 -44 C22 -34 18 -22 0 0 z" fill="#fee500" stroke="#3c3c3c" stroke-width="2"/>
+    <circle cx="0" cy="-44" r="8" fill="#3c3c3c"/>
+  </g>
+  <g transform="translate(880 330)">
+    <path d="M0 0 C-18 -22 -22 -34 -22 -44 A22 22 0 0 1 22 -44 C22 -34 18 -22 0 0 z" fill="#03c75a"/>
+    <circle cx="0" cy="-44" r="8" fill="#fff"/>
+  </g>
+</svg>

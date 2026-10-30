@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e7d2"/>
+      <stop offset="1" stop-color="#fbf5ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- hills and N Seoul Tower -->
+  <path d="M0 330 Q200 230 420 300 Q560 200 760 290 Q960 220 1200 300 V630 H0 z" fill="#b9cfa8"/>
+  <g fill="#5b6f82">
+    <rect x="555" y="150" width="8" height="70"/>
+    <path d="M540 220 h38 l-6 26 h-26 z"/>
+    <rect x="552" y="246" width="14" height="40"/>
+  </g>
+  <!-- Han River -->
+  <path d="M0 470 Q300 430 600 465 T1200 450 V520 Q900 545 600 515 T0 535 z" fill="#7fb3d5"/>
+  <!-- land below river -->
+  <path d="M0 535 Q300 515 600 515 T1200 520 V630 H0 z" fill="#d7e3c8"/>
+  <!-- subway lines -->
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M140 400 Q420 330 700 390 T1080 380" stroke="#3aa64c"/>
+    <path d="M520 300 L560 420 L620 600" stroke="#2c9ed8"/>
+    <path d="M300 330 L420 440 L820 560" stroke="#f0882a"/>
+  </g>
+  <!-- map pins -->
+  <g>
+    <g transform="translate(250 330)"><path d="M0 0 C-28 -40 -28 -78 0 -78 C28 -78 28 -40 0 0 z" fill="#d64545"/><circle cx="0" cy="-52" r="10" fill="#fff"/></g>
+    <g transform="translate(560 420)"><path d="M0 0 C-28 -40 -28 -78 0 -78 C28 -78 28 -40 0 0 z" fill="#d64545"/><circle cx="0" cy="-52" r="10" fill="#fff"/></g>
+    <g transform="translate(780 385)"><path d="M0 0 C-28 -40 -28 -78 0 -78 C28 -78 28 -40 0 0 z" fill="#d64545"/><circle cx="0" cy="-52" r="10" fill="#fff"/></g>
+    <g transform="translate(900 600)"><path d="M0 0 C-28 -40 -28 -78 0 -78 C28 -78 28 -40 0 0 z" fill="#d64545"/><circle cx="0" cy="-52" r="10" fill="#fff"/></g>
+  </g>
+  <!-- hotel building -->
+  <g transform="translate(950 120)">
+    <rect width="150" height="280" fill="#3d4f63"/>
+    <rect x="35" y="-30" width="80" height="30" fill="#c8453a"/>
+    <g fill="#f4d58d">
+      <rect x="20" y="25" width="30" height="30"/><rect x="60" y="25" width="30" height="30"/><rect x="100" y="25" width="30" height="30"/>
+      <rect x="20" y="75" width="30" height="30"/><rect x="60" y="75" width="30" height="30"/><rect x="100" y="75" width="30" height="30"/>
+      <rect x="20" y="125" width="30" height="30"/><rect x="60" y="125" width="30" height="30"/><rect x="100" y="125" width="30" height="30"/>
+      <rect x="20" y="175" width="30" height="30"/><rect x="60" y="175" width="30" height="30"/><rect x="100" y="175" width="30" height="30"/>
+    </g>
+    <rect x="55" y="225" width="40" height="55" fill="#2a3746"/>
+  </g>
+  <!-- hanok roof -->
+  <g transform="translate(90 190)">
+    <path d="M-20 60 Q60 20 140 20 Q220 20 300 60 L270 70 Q200 45 140 45 Q80 45 10 70 z" fill="#3b3b3b"/>
+    <rect x="30" y="68" width="220" height="70" fill="#efe2c8"/>
+    <rect x="120" y="88" width="40" height="50" fill="#8a5a3b"/>
+  </g>
+</svg>

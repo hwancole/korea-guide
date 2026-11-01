@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8ef"/>
+      <stop offset="1" stop-color="#eef5fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="1030" cy="110" r="48" fill="#fbe6a6"/>
+  <!-- far mountains -->
+  <path d="M0 360 L180 200 L300 290 L470 130 L640 300 L780 190 L960 320 L1080 230 L1200 300 V630 H0 z" fill="#9db6cc"/>
+  <path d="M470 130 L420 177 L450 172 L475 190 L500 168 L522 178 z M180 200 L148 228 L172 226 L190 238 L210 228 z M780 190 L748 218 L772 214 L792 228 L812 216 z" fill="#ffffff"/>
+  <!-- main slope -->
+  <path d="M0 630 V420 Q260 300 520 250 Q700 220 840 300 Q1000 390 1200 430 V630 z" fill="#ffffff"/>
+  <path d="M0 630 V470 Q300 380 560 330 Q760 300 900 380 Q1050 460 1200 480 V630 z" fill="#f2f6fa"/>
+  <!-- trees -->
+  <g fill="#3f6b57">
+    <path d="M90 470 l22 -50 l22 50 z"/><path d="M130 455 l18 -42 l18 42 z"/>
+    <path d="M1040 470 l22 -52 l22 52 z"/><path d="M1090 485 l18 -42 l18 42 z"/><path d="M990 450 l16 -38 l16 38 z"/>
+  </g>
+  <!-- chairlift cable and towers -->
+  <path d="M140 520 L620 250" stroke="#4a5560" stroke-width="4" fill="none"/>
+  <g fill="#4a5560">
+    <rect x="296" y="425" width="8" height="70"/><rect x="456" y="337" width="8" height="70"/>
+    <rect x="280" y="425" width="40" height="6"/><rect x="440" y="337" width="40" height="6"/>
+  </g>
+  <g stroke="#4a5560" stroke-width="3" fill="#d64545">
+    <line x1="220" y1="475" x2="220" y2="500"/><rect x="204" y="500" width="32" height="18" rx="4"/>
+    <line x1="380" y1="385" x2="380" y2="410"/><rect x="364" y="410" width="32" height="18" rx="4"/>
+    <line x1="540" y1="295" x2="540" y2="320"/><rect x="524" y="320" width="32" height="18" rx="4"/>
+  </g>
+  <!-- gondola -->
+  <path d="M700 120 L1200 330" stroke="#4a5560" stroke-width="3" fill="none"/>
+  <line x1="880" y1="196" x2="880" y2="220" stroke="#4a5560" stroke-width="3"/>
+  <rect x="855" y="220" width="50" height="40" rx="8" fill="#2c7fb8"/>
+  <rect x="863" y="228" width="34" height="14" rx="3" fill="#dceefa"/>
+  <!-- skier -->
+  <g transform="translate(720 410) rotate(18)">
+    <circle cx="0" cy="-58" r="11" fill="#f0c9a0"/>
+    <rect x="-12" y="-70" width="24" height="9" rx="4" fill="#d64545"/>
+    <path d="M-12 -46 L12 -46 L16 -8 L-10 -8 z" fill="#f0882a"/>
+    <path d="M-10 -8 L-18 22 M10 -8 L6 22" stroke="#2f3e4e" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-50 28 L40 28" stroke="#2f3e4e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-14 -38 L-40 0 M14 -38 L36 -2" stroke="#4a5560" stroke-width="3"/>
+  </g>
+  <!-- ski track -->
+  <path d="M560 360 Q620 380 660 420 Q700 450 690 470" stroke="#c9d6e2" stroke-width="4" fill="none" stroke-dasharray="10 8"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde8e4"/>
+      <stop offset="1" stop-color="#f6f1ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="150" fill="#f9d7cf" opacity="0.6"/>
+  <circle cx="120" cy="560" r="180" fill="#e7efe9" opacity="0.8"/>
+  <!-- shopping bag -->
+  <path d="M250 250 Q250 170 330 170 Q410 170 410 250" fill="none" stroke="#2f3b4c" stroke-width="14" stroke-linecap="round"/>
+  <rect x="190" y="230" width="280" height="300" rx="18" fill="#d9534f"/>
+  <rect x="190" y="230" width="280" height="40" rx="18" fill="#c24440"/>
+  <circle cx="250" cy="270" r="9" fill="#2f3b4c"/><circle cx="410" cy="270" r="9" fill="#2f3b4c"/>
+  <text x="330" y="420" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff" text-anchor="middle">TAX</text>
+  <text x="330" y="470" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff" text-anchor="middle">FREE</text>
+  <!-- passport -->
+  <g transform="rotate(-8 640 380)">
+    <rect x="540" y="240" width="200" height="280" rx="14" fill="#1f3c6e"/>
+    <circle cx="640" cy="350" r="48" fill="none" stroke="#e8c66a" stroke-width="6"/>
+    <path d="M592 350 H688 M640 302 V398" stroke="#e8c66a" stroke-width="4"/>
+    <rect x="585" y="430" width="110" height="12" rx="6" fill="#e8c66a"/>
+    <rect x="605" y="455" width="70" height="10" rx="5" fill="#e8c66a"/>
+  </g>
+  <!-- receipt -->
+  <g transform="rotate(6 900 360)">
+    <path d="M800 170 H1000 V520 l-20 -14 l-20 14 l-20 -14 l-20 14 l-20 -14 l-20 14 l-20 -14 l-20 14 l-20 -14 l-20 14 z" fill="#ffffff" stroke="#d6d0c8" stroke-width="2"/>
+    <rect x="830" y="205" width="140" height="16" rx="8" fill="#2f3b4c"/>
+    <rect x="830" y="250" width="100" height="10" rx="5" fill="#b8b2aa"/><rect x="940" y="250" width="30" height="10" rx="5" fill="#b8b2aa"/>
+    <rect x="830" y="280" width="90" height="10" rx="5" fill="#b8b2aa"/><rect x="940" y="280" width="30" height="10" rx="5" fill="#b8b2aa"/>
+    <rect x="830" y="310" width="110" height="10" rx="5" fill="#b8b2aa"/><rect x="950" y="310" width="20" height="10" rx="5" fill="#b8b2aa"/>
+    <line x1="830" y1="345" x2="970" y2="345" stroke="#d6d0c8" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="900" y="400" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#3b8a5a" text-anchor="middle">REFUND</text>
+    <text x="900" y="445" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#2f3b4c" text-anchor="middle">₩</text>
+  </g>
+  <!-- coins -->
+  <g fill="#e8c66a" stroke="#c9a544" stroke-width="4">
+    <ellipse cx="1050" cy="540" rx="58" ry="20"/><ellipse cx="1050" cy="520" rx="58" ry="20"/><ellipse cx="1050" cy="500" rx="58" ry="20"/>
+    <ellipse cx="760" cy="565" rx="48" ry="16"/><ellipse cx="760" cy="548" rx="48" ry="16"/>
+  </g>
+</svg>

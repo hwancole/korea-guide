@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3f0"/>
+      <stop offset="1" stop-color="#f4efe4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- mountain behind (Bugaksan) -->
+  <path d="M0 330 Q200 250 380 270 Q560 140 720 230 Q880 180 1050 260 Q1130 280 1200 270 V420 H0 z" fill="#9fb3a1"/>
+  <path d="M0 370 Q300 300 600 330 Q900 290 1200 340 V430 H0 z" fill="#87a08a"/>
+  <!-- stone courtyard -->
+  <rect y="470" width="1200" height="160" fill="#d9cfbd"/>
+  <g stroke="#c6baa4" stroke-width="2">
+    <path d="M0 520 H1200"/><path d="M0 575 H1200"/>
+    <path d="M150 470 V630"/><path d="M350 470 V630"/><path d="M550 470 V630"/><path d="M750 470 V630"/><path d="M950 470 V630"/>
+  </g>
+  <!-- stone base / terrace -->
+  <rect x="230" y="430" width="740" height="45" fill="#bfb3a0"/>
+  <rect x="200" y="460" width="800" height="16" fill="#a99d89"/>
+  <!-- columns -->
+  <g fill="#b23a2c">
+    <rect x="300" y="300" width="22" height="130"/><rect x="420" y="300" width="22" height="130"/>
+    <rect x="540" y="300" width="22" height="130"/><rect x="638" y="300" width="22" height="130"/>
+    <rect x="758" y="300" width="22" height="130"/><rect x="878" y="300" width="22" height="130"/>
+  </g>
+  <!-- doors / lattice -->
+  <g fill="#e7c98a" opacity="0.9">
+    <rect x="322" y="330" width="98" height="100"/><rect x="442" y="330" width="98" height="100"/>
+    <rect x="562" y="330" width="76" height="100"/><rect x="660" y="330" width="98" height="100"/><rect x="780" y="330" width="98" height="100"/>
+  </g>
+  <!-- dancheong band -->
+  <rect x="270" y="282" width="660" height="22" fill="#3f7f6e"/>
+  <g fill="#e0a640"><circle cx="330" cy="293" r="6"/><circle cx="430" cy="293" r="6"/><circle cx="530" cy="293" r="6"/><circle cx="600" cy="293" r="6"/><circle cx="670" cy="293" r="6"/><circle cx="770" cy="293" r="6"/><circle cx="870" cy="293" r="6"/></g>
+  <!-- lower roof -->
+  <path d="M150 282 Q170 250 250 245 H950 Q1030 250 1050 282 Q1010 268 950 268 H250 Q190 268 150 282 z" fill="#4a4a52"/>
+  <!-- upper roof -->
+  <rect x="330" y="210" width="540" height="36" fill="#3f7f6e"/>
+  <path d="M230 210 Q260 160 360 150 H840 Q940 160 970 210 Q920 192 840 192 H360 Q280 192 230 210 z" fill="#3b3b44"/>
+  <path d="M360 150 H840 L800 132 H400 z" fill="#2f2f37"/>
+  <!-- title text -->
+  <text x="600" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#2f2f37" text-anchor="middle" font-weight="bold">Gyeongbokgung Palace</text>
+  <text x="600" y="560" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5a5245" text-anchor="middle">Tickets · Hours · Hanbok · Guard ceremony</text>
+</svg>

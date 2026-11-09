@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf5e4"/>
+      <stop offset="1" stop-color="#f8f3ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1100" cy="90" r="150" fill="#d4ecc8" opacity="0.7"/>
+  <circle cx="90" cy="580" r="150" fill="#fbe1dc" opacity="0.8"/>
+  <!-- bottles behind basket -->
+  <rect x="780" y="170" width="70" height="200" rx="14" fill="#ffffff" stroke="#cfd8cc" stroke-width="3"/>
+  <rect x="795" y="145" width="40" height="32" rx="7" fill="#7bb661"/>
+  <rect x="790" y="240" width="50" height="60" rx="7" fill="#e8f3e1"/>
+  <rect x="870" y="200" width="66" height="170" rx="33" fill="#f6c9c0"/>
+  <rect x="888" y="175" width="30" height="34" rx="6" fill="#2f3b4c"/>
+  <!-- sunscreen tube -->
+  <g transform="rotate(14 990 250)">
+    <path d="M955 150 H1025 L1018 350 H962 Z" fill="#ffd56b"/>
+    <rect x="968" y="350" width="44" height="26" rx="6" fill="#2f3b4c"/>
+    <text x="990" y="245" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2f3b4c" text-anchor="middle">SPF</text>
+    <text x="990" y="274" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2f3b4c" text-anchor="middle">50+</text>
+  </g>
+  <!-- basket -->
+  <path d="M800 340 Q910 230 1020 340" fill="none" stroke="#2f3b4c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M730 340 H1110 L1075 520 H765 Z" fill="#5fa046"/>
+  <rect x="720" y="328" width="400" height="30" rx="10" fill="#4c8a37"/>
+  <g stroke="#4c8a37" stroke-width="9" stroke-linecap="round">
+    <line x1="810" y1="385" x2="820" y2="495"/>
+    <line x1="880" y1="385" x2="885" y2="495"/>
+    <line x1="950" y1="385" x2="950" y2="495"/>
+    <line x1="1020" y1="385" x2="1012" y2="495"/>
+  </g>
+  <!-- 1+1 tag -->
+  <g transform="rotate(-8 760 230)">
+    <rect x="690" y="195" width="130" height="70" rx="12" fill="#e2506a"/>
+    <circle cx="708" cy="230" r="7" fill="#ffffff"/>
+    <text x="765" y="245" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1+1</text>
+  </g>
+  <text x="70" y="240" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="56" font-weight="700" fill="#1d2b3a">オリーブヤング</text>
+  <text x="70" y="315" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="56" font-weight="700" fill="#1d2b3a">完全ガイド</text>
+  <text x="70" y="390" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="34" font-weight="700" fill="#3f8a2c">免税・セール時期・おすすめ店舗</text>
+  <text x="70" y="450" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="28" fill="#4a5866">2026年版</text>
+</svg>

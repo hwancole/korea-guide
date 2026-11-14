@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#fbe9cf"/>
+  <!-- roof beams -->
+  <rect x="0" y="0" width="1200" height="70" fill="#7a4b2a"/>
+  <g stroke="#5e3a20" stroke-width="6"><line x1="0" y1="70" x2="1200" y2="70"/></g>
+  <!-- lanterns -->
+  <g>
+    <line x1="200" y1="70" x2="200" y2="110" stroke="#5e3a20" stroke-width="4"/>
+    <ellipse cx="200" cy="150" rx="38" ry="46" fill="#e2452f"/>
+    <rect x="182" y="102" width="36" height="10" fill="#3b2a1a"/><rect x="182" y="188" width="36" height="10" fill="#3b2a1a"/>
+    <line x1="600" y1="70" x2="600" y2="100" stroke="#5e3a20" stroke-width="4"/>
+    <ellipse cx="600" cy="140" rx="38" ry="46" fill="#f2a33a"/>
+    <rect x="582" y="92" width="36" height="10" fill="#3b2a1a"/><rect x="582" y="178" width="36" height="10" fill="#3b2a1a"/>
+    <line x1="1000" y1="70" x2="1000" y2="110" stroke="#5e3a20" stroke-width="4"/>
+    <ellipse cx="1000" cy="150" rx="38" ry="46" fill="#e2452f"/>
+    <rect x="982" y="102" width="36" height="10" fill="#3b2a1a"/><rect x="982" y="188" width="36" height="10" fill="#3b2a1a"/>
+  </g>
+  <!-- counter -->
+  <rect x="0" y="430" width="1200" height="200" fill="#c98a4b"/>
+  <rect x="0" y="430" width="1200" height="24" fill="#a86c35"/>
+  <!-- griddle -->
+  <rect x="140" y="300" width="520" height="140" rx="16" fill="#3a3a3a"/>
+  <rect x="160" y="316" width="480" height="108" rx="10" fill="#575757"/>
+  <!-- bindaetteok pancakes -->
+  <circle cx="290" cy="370" r="62" fill="#d8962e"/><circle cx="290" cy="370" r="50" fill="#e6ae4c"/>
+  <g fill="#7a9a3a"><circle cx="270" cy="355" r="6"/><circle cx="310" cy="380" r="6"/><circle cx="295" cy="345" r="5"/></g>
+  <g fill="#b0482a"><circle cx="280" cy="390" r="6"/><circle cx="315" cy="355" r="5"/></g>
+  <circle cx="490" cy="370" r="62" fill="#d8962e"/><circle cx="490" cy="370" r="50" fill="#e6ae4c"/>
+  <g fill="#7a9a3a"><circle cx="470" cy="360" r="6"/><circle cx="505" cy="385" r="6"/></g>
+  <g fill="#b0482a"><circle cx="500" cy="350" r="5"/><circle cx="475" cy="390" r="6"/></g>
+  <!-- sizzle steam -->
+  <g stroke="#ffffff" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M290 280 C270 250 310 230 290 200"/>
+    <path d="M490 280 C470 250 510 230 490 200"/>
+  </g>
+  <!-- gimbap plate -->
+  <ellipse cx="900" cy="440" rx="200" ry="44" fill="#ffffff"/>
+  <ellipse cx="900" cy="432" rx="180" ry="34" fill="#f1f1f1"/>
+  <g>
+    <g transform="translate(790 405)"><circle r="26" fill="#1f2a1f"/><circle r="19" fill="#ffffff"/><circle cx="-5" cy="-4" r="5" fill="#f08a24"/><circle cx="6" cy="3" r="5" fill="#f2d03b"/></g>
+    <g transform="translate(850 398)"><circle r="26" fill="#1f2a1f"/><circle r="19" fill="#ffffff"/><circle cx="-5" cy="-4" r="5" fill="#f08a24"/><circle cx="6" cy="3" r="5" fill="#f2d03b"/></g>
+    <g transform="translate(910 404)"><circle r="26" fill="#1f2a1f"/><circle r="19" fill="#ffffff"/><circle cx="-5" cy="-4" r="5" fill="#f08a24"/><circle cx="6" cy="3" r="5" fill="#f2d03b"/></g>
+    <g transform="translate(970 398)"><circle r="26" fill="#1f2a1f"/><circle r="19" fill="#ffffff"/><circle cx="-5" cy="-4" r="5" fill="#f08a24"/><circle cx="6" cy="3" r="5" fill="#f2d03b"/></g>
+    <g transform="translate(1025 406)"><circle r="26" fill="#1f2a1f"/><circle r="19" fill="#ffffff"/><circle cx="-5" cy="-4" r="5" fill="#f08a24"/><circle cx="6" cy="3" r="5" fill="#f2d03b"/></g>
+  </g>
+  <!-- mustard dip -->
+  <ellipse cx="1110" cy="470" rx="40" ry="14" fill="#ffffff"/><ellipse cx="1110" cy="466" rx="30" ry="9" fill="#d9a521"/>
+  <!-- makgeolli bowl -->
+  <ellipse cx="760" cy="520" rx="70" ry="20" fill="#d9c9a8"/><ellipse cx="760" cy="512" rx="58" ry="13" fill="#f4efe2"/>
+  <text x="600" y="590" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#4a2b14">GWANGJANG MARKET</text>
+</svg>

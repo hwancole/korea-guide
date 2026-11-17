@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b33"/>
+      <stop offset="1" stop-color="#2d3a63"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="90" cy="70" r="2"/><circle cx="260" cy="40" r="1.5"/><circle cx="420" cy="90" r="2"/>
+    <circle cx="780" cy="50" r="1.5"/><circle cx="960" cy="85" r="2"/><circle cx="1120" cy="45" r="1.5"/>
+  </g>
+  <!-- light bursts -->
+  <g stroke="#f7b84b" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M200 160 L200 120 M200 160 L232 140 M200 160 L232 180 M200 160 L200 200 M200 160 L168 180 M200 160 L168 140"/>
+  </g>
+  <g stroke="#e85d75" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M1000 150 L1000 105 M1000 150 L1038 128 M1000 150 L1038 172 M1000 150 L1000 195 M1000 150 L962 172 M1000 150 L962 128"/>
+  </g>
+  <!-- city silhouettes -->
+  <g fill="#1d2645">
+    <rect x="0" y="330" width="90" height="300"/><rect x="100" y="290" width="70" height="340"/>
+    <rect x="180" y="350" width="110" height="280"/><rect x="920" y="300" width="80" height="330"/>
+    <rect x="1010" y="340" width="100" height="290"/><rect x="1120" y="280" width="80" height="350"/>
+  </g>
+  <!-- pavilion glow -->
+  <ellipse cx="600" cy="330" rx="330" ry="230" fill="url(#glow)"/>
+  <!-- pavilion -->
+  <rect x="380" y="470" width="440" height="40" fill="#5b4a3a"/>
+  <rect x="360" y="505" width="480" height="20" fill="#3f342a"/>
+  <g fill="#9c2f2f">
+    <rect x="420" y="300" width="22" height="170"/><rect x="530" y="300" width="22" height="170"/>
+    <rect x="648" y="300" width="22" height="170"/><rect x="758" y="300" width="22" height="170"/>
+  </g>
+  <rect x="410" y="290" width="380" height="18" fill="#2f6b5e"/>
+  <path d="M330 270 Q600 225 870 270 L840 300 Q600 262 360 300 z" fill="#2a2d36"/>
+  <path d="M400 230 Q600 195 800 230 L780 262 Q600 232 420 262 z" fill="#2a2d36"/>
+  <rect x="440" y="258" width="320" height="14" fill="#2f6b5e"/>
+  <!-- bell -->
+  <rect x="597" y="308" width="6" height="22" fill="#6b5a44"/>
+  <path d="M560 420 Q560 340 600 330 Q640 340 640 420 Q645 430 655 432 L545 432 Q555 430 560 420 z" fill="#b8863b"/>
+  <rect x="545" y="430" width="110" height="8" rx="3" fill="#8e6526"/>
+  <g stroke="#8e6526" stroke-width="3" fill="none"><path d="M565 370 H635"/><path d="M562 395 H638"/></g>
+  <!-- countdown -->
+  <rect x="490" y="70" width="220" height="92" rx="14" fill="#0e1326" stroke="#f7b84b" stroke-width="3"/>
+  <text x="600" y="136" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#f7b84b" text-anchor="middle">00:00</text>
+  <!-- crowd -->
+  <g fill="#0b0f1f">
+    <path d="M0 630 L0 560 Q30 530 60 560 Q90 525 120 560 Q150 530 180 560 Q210 520 240 560 Q270 532 300 560 Q330 522 360 560 Q390 534 420 560 Q450 524 480 560 Q510 532 540 560 Q570 520 600 560 Q630 534 660 560 Q690 524 720 560 Q750 532 780 560 Q810 522 840 560 Q870 534 900 560 Q930 524 960 560 Q990 530 1020 560 Q1050 522 1080 560 Q1110 532 1140 560 Q1170 526 1200 560 L1200 630 z"/>
+  </g>
+  <text x="600" y="610" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#f4efe4" text-anchor="middle">New Year's Eve in Seoul · Bosingak Bell</text>
+</svg>

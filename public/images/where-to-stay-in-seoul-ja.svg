@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e7d2"/>
+      <stop offset="1" stop-color="#fbf5ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- map area on the right -->
+  <path d="M560 300 Q700 220 820 280 Q960 210 1200 270 V630 H560 z" fill="#b9cfa8"/>
+  <path d="M560 470 Q760 435 900 465 T1200 445 V515 Q1000 540 880 515 T560 535 z" fill="#7fb3d5"/>
+  <path d="M560 535 Q760 515 880 515 T1200 515 V630 H560 z" fill="#d7e3c8"/>
+  <!-- N Seoul Tower -->
+  <g fill="#5b6f82">
+    <rect x="806" y="160" width="8" height="70"/>
+    <path d="M791 230 h38 l-6 26 h-26 z"/>
+    <rect x="803" y="256" width="14" height="40"/>
+  </g>
+  <!-- subway lines -->
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M580 400 Q760 340 900 395 T1180 380" stroke="#3aa64c"/>
+    <path d="M760 300 L800 420 L850 600" stroke="#2c9ed8"/>
+    <path d="M620 330 L720 440 L1010 570" stroke="#8b50a4"/>
+  </g>
+  <!-- pins with area labels -->
+  <g font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="22" font-weight="700" fill="#1d2b3a" text-anchor="middle">
+    <g transform="translate(640 345)"><path d="M0 0 C-26 -38 -26 -72 0 -72 C26 -72 26 -38 0 0 z" fill="#d64545"/><circle cy="-48" r="9" fill="#fff"/></g>
+    <text x="640" y="380">弘大</text>
+    <g transform="translate(800 420)"><path d="M0 0 C-26 -38 -26 -72 0 -72 C26 -72 26 -38 0 0 z" fill="#d64545"/><circle cy="-48" r="9" fill="#fff"/></g>
+    <text x="800" y="455">明洞</text>
+    <g transform="translate(930 395)"><path d="M0 0 C-26 -38 -26 -72 0 -72 C26 -72 26 -38 0 0 z" fill="#d64545"/><circle cy="-48" r="9" fill="#fff"/></g>
+    <text x="930" y="430">東大門</text>
+    <g transform="translate(1010 590)"><path d="M0 0 C-26 -38 -26 -72 0 -72 C26 -72 26 -38 0 0 z" fill="#d64545"/><circle cy="-48" r="9" fill="#fff"/></g>
+    <text x="1010" y="620">江南</text>
+  </g>
+  <!-- hotel -->
+  <g transform="translate(1040 110)">
+    <rect width="120" height="230" fill="#3d4f63"/>
+    <rect x="25" y="-26" width="70" height="26" fill="#c8453a"/>
+    <g fill="#f4d58d">
+      <rect x="16" y="22" width="24" height="24"/><rect x="48" y="22" width="24" height="24"/><rect x="80" y="22" width="24" height="24"/>
+      <rect x="16" y="64" width="24" height="24"/><rect x="48" y="64" width="24" height="24"/><rect x="80" y="64" width="24" height="24"/>
+      <rect x="16" y="106" width="24" height="24"/><rect x="48" y="106" width="24" height="24"/><rect x="80" y="106" width="24" height="24"/>
+      <rect x="16" y="148" width="24" height="24"/><rect x="48" y="148" width="24" height="24"/><rect x="80" y="148" width="24" height="24"/>
+    </g>
+    <rect x="44" y="185" width="32" height="45" fill="#2a3746"/>
+  </g>
+  <!-- title -->
+  <g font-family="Hiragino Sans, Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-weight="700">
+    <text x="60" y="210" font-size="58" fill="#1d2b3a">ソウルの</text>
+    <text x="60" y="285" font-size="58" fill="#1d2b3a">泊まるエリア</text>
+    <text x="60" y="360" font-size="32" fill="#c8453a">明洞・鍾路・弘大・江南を比較</text>
+    <text x="60" y="420" font-size="26" font-weight="400" fill="#4a5866">初めての韓国旅行 2026年版</text>
+  </g>
+</svg>

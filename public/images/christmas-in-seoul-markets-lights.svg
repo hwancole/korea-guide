@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1a33"/>
+      <stop offset="1" stop-color="#26385e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- city towers -->
+  <g fill="#1b2747">
+    <rect x="30" y="250" width="80" height="380"/><rect x="120" y="200" width="60" height="430"/>
+    <rect x="190" y="290" width="100" height="340"/><rect x="900" y="230" width="90" height="400"/>
+    <rect x="1000" y="280" width="80" height="350"/>
+    <path d="M1110 630 L1110 150 L1135 60 L1160 150 L1160 630 z"/>
+  </g>
+  <g fill="#f5d78a" opacity="0.5">
+    <rect x="50" y="280" width="10" height="10"/><rect x="80" y="320" width="10" height="10"/>
+    <rect x="140" y="240" width="10" height="10"/><rect x="215" y="330" width="10" height="10"/>
+    <rect x="930" y="270" width="10" height="10"/><rect x="960" y="340" width="10" height="10"/>
+    <rect x="1025" y="310" width="10" height="10"/><rect x="1130" y="200" width="8" height="8"/>
+  </g>
+  <!-- snow -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="80" cy="60" r="3"/><circle cx="240" cy="120" r="2.5"/><circle cx="360" cy="50" r="3"/>
+    <circle cx="470" cy="140" r="2"/><circle cx="700" cy="70" r="3"/><circle cx="820" cy="150" r="2.5"/>
+    <circle cx="980" cy="60" r="3"/><circle cx="1080" cy="120" r="2"/><circle cx="330" cy="210" r="2.5"/>
+    <circle cx="860" cy="230" r="2"/><circle cx="150" cy="170" r="2"/><circle cx="560" cy="40" r="2"/>
+  </g>
+  <!-- tree glow -->
+  <ellipse cx="600" cy="360" rx="300" ry="240" fill="url(#glow)"/>
+  <!-- tree -->
+  <g fill="#1f6b4a">
+    <path d="M600 110 L690 250 L510 250 z"/>
+    <path d="M600 180 L730 360 L470 360 z"/>
+    <path d="M600 270 L780 480 L420 480 z"/>
+  </g>
+  <rect x="580" y="480" width="40" height="40" fill="#5b4632"/>
+  <path d="M600 88 L607 106 L626 106 L611 117 L617 135 L600 124 L583 135 L589 117 L574 106 L593 106 z" fill="#ffd34d"/>
+  <g fill="#ffd34d">
+    <circle cx="560" cy="230" r="6"/><circle cx="640" cy="215" r="6"/><circle cx="530" cy="335" r="6"/>
+    <circle cx="600" cy="310" r="6"/><circle cx="680" cy="340" r="6"/><circle cx="480" cy="455" r="6"/>
+    <circle cx="560" cy="430" r="6"/><circle cx="650" cy="440" r="6"/><circle cx="730" cy="460" r="6"/>
+  </g>
+  <g fill="#e04f5f">
+    <circle cx="610" cy="250" r="6"/><circle cx="560" cy="300" r="6"/><circle cx="640" cy="380" r="6"/>
+    <circle cx="510" cy="410" r="6"/><circle cx="700" cy="410" r="6"/>
+  </g>
+  <!-- string lights -->
+  <path d="M0 140 Q300 210 600 150 Q900 210 1200 140" fill="none" stroke="#3a4a6e" stroke-width="2"/>
+  <g fill="#ffcf5c">
+    <circle cx="100" cy="162" r="5"/><circle cx="200" cy="180" r="5"/><circle cx="300" cy="185" r="5"/>
+    <circle cx="400" cy="178" r="5"/><circle cx="500" cy="162" r="5"/><circle cx="700" cy="162" r="5"/>
+    <circle cx="800" cy="178" r="5"/><circle cx="900" cy="185" r="5"/><circle cx="1000" cy="180" r="5"/>
+    <circle cx="1100" cy="162" r="5"/>
+  </g>
+  <!-- market stalls -->
+  <g>
+    <rect x="90" y="440" width="220" height="110" fill="#8a5a3b"/>
+    <path d="M70 445 L200 380 L330 445 z" fill="#f3f1ea"/>
+    <rect x="110" y="470" width="180" height="40" fill="#f2b25b"/>
+    <rect x="890" y="440" width="220" height="110" fill="#8a5a3b"/>
+    <path d="M870 445 L1000 380 L1130 445 z" fill="#f3f1ea"/>
+    <rect x="910" y="470" width="180" height="40" fill="#f2b25b"/>
+  </g>
+  <!-- snowy ground -->
+  <path d="M0 540 Q300 515 600 535 Q900 555 1200 530 L1200 630 L0 630 z" fill="#e9eef7"/>
+</svg>

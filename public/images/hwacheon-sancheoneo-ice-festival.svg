@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe2f1"/>
+      <stop offset="1" stop-color="#eef5fb"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3eef6"/>
+      <stop offset="1" stop-color="#bcd3e4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- snowy hills -->
+  <path d="M0 300 L160 200 L320 270 L480 180 L640 260 L820 170 L1000 250 L1200 190 V360 H0 z" fill="#9fb2c6"/>
+  <path d="M160 200 L200 225 L180 228 L150 214 z M480 180 L520 206 L470 210 z M820 170 L862 196 L812 200 z" fill="#ffffff"/>
+  <path d="M0 340 L220 280 L420 320 L640 270 L860 315 L1060 280 L1200 310 V380 H0 z" fill="#f7fbff"/>
+  <!-- lantern string with fish-shaped lanterns -->
+  <path d="M0 70 Q300 130 600 80 T1200 80" fill="none" stroke="#5b6b7c" stroke-width="2"/>
+  <g fill="#e2573b">
+    <g transform="translate(110 92)"><ellipse rx="34" ry="15"/><path d="M30 0 l22 -14 v28 z"/><circle cx="-18" cy="-3" r="3" fill="#fff"/></g>
+    <g transform="translate(330 112)" fill="#f2a33a"><ellipse rx="34" ry="15"/><path d="M30 0 l22 -14 v28 z"/><circle cx="-18" cy="-3" r="3" fill="#fff"/></g>
+    <g transform="translate(560 90)"><ellipse rx="34" ry="15"/><path d="M30 0 l22 -14 v28 z"/><circle cx="-18" cy="-3" r="3" fill="#fff"/></g>
+    <g transform="translate(800 70)" fill="#f2a33a"><ellipse rx="34" ry="15"/><path d="M30 0 l22 -14 v28 z"/><circle cx="-18" cy="-3" r="3" fill="#fff"/></g>
+    <g transform="translate(1040 92)"><ellipse rx="34" ry="15"/><path d="M30 0 l22 -14 v28 z"/><circle cx="-18" cy="-3" r="3" fill="#fff"/></g>
+  </g>
+  <!-- frozen river -->
+  <rect y="370" width="1200" height="260" fill="url(#ice)"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.6" stroke-linecap="round">
+    <path d="M60 420 l120 -10"/><path d="M700 600 l140 -12"/><path d="M980 430 l110 8"/>
+  </g>
+  <!-- ice holes -->
+  <g fill="#3d6f93">
+    <ellipse cx="260" cy="520" rx="38" ry="12"/>
+    <ellipse cx="600" cy="470" rx="34" ry="11"/>
+    <ellipse cx="930" cy="540" rx="38" ry="12"/>
+  </g>
+  <!-- fishers -->
+  <g>
+    <!-- fisher 1 -->
+    <rect x="170" y="470" width="44" height="50" rx="16" fill="#d9483b"/>
+    <circle cx="192" cy="455" r="18" fill="#f1c9a5"/>
+    <path d="M172 452 q20 -26 40 0 z" fill="#2f4a68"/>
+    <path d="M206 488 L262 430" stroke="#4a3a2a" stroke-width="3"/>
+    <path d="M262 430 L262 518" stroke="#4a3a2a" stroke-width="1.5"/>
+    <!-- fisher 2 -->
+    <rect x="512" y="420" width="42" height="48" rx="16" fill="#2f7a5f"/>
+    <circle cx="533" cy="405" r="17" fill="#f1c9a5"/>
+    <path d="M514 402 q19 -25 38 0 z" fill="#e2a23a"/>
+    <path d="M548 438 L602 384" stroke="#4a3a2a" stroke-width="3"/>
+    <path d="M602 384 L602 468" stroke="#4a3a2a" stroke-width="1.5"/>
+    <!-- fisher 3 -->
+    <rect x="1000" y="490" width="44" height="50" rx="16" fill="#3a5f9e"/>
+    <circle cx="1022" cy="475" r="18" fill="#f1c9a5"/>
+    <path d="M1002 472 q20 -26 40 0 z" fill="#d9483b"/>
+    <path d="M1004 508 L932 452" stroke="#4a3a2a" stroke-width="3"/>
+    <path d="M932 452 L932 538" stroke="#4a3a2a" stroke-width="1.5"/>
+  </g>
+  <!-- snowflakes -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="180" r="4"/><circle cx="260" cy="230" r="3"/><circle cx="420" cy="160" r="4"/>
+    <circle cx="700" cy="200" r="3"/><circle cx="900" cy="150" r="4"/><circle cx="1120" cy="220" r="3"/>
+    <circle cx="640" cy="330" r="3"/><circle cx="380" cy="300" r="4"/><circle cx="1000" cy="320" r="3"/>
+  </g>
+</svg>
